@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Entbannungsantrag — RBK_DEV-Studios</title>
+<link rel="icon" href="images/logo.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header"><a class="brand" href="index.html"><img src="images/logo.png" alt="RBK_DEV-Studios"><span>RBK_DEV-Studios</span></a><button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">☰</button><nav class="nav"><a href="index.html">Home</a><a href="spiele.html">Projekte</a><a href="linktree.html">Links</a><a class="active" href="entbannung.html">Entbannung</a></nav></header>
+<main><section class="page-hero"><p class="eyebrow">SUPPORT</p><h1>Entbannungsantrag</h1><p>Fülle den Antrag vollständig und sachlich aus. Deine Angaben werden ausschließlich zur Bearbeitung des Antrags an unser Team übermittelt.</p></section>
+<section class="section form-wrap"><form id="unbanForm" class="unban-form">
+<div class="form-grid"><label>E-Mail-Adresse<input type="email" name="email" autocomplete="email" required></label><label>Roblox Username<input type="text" name="username" maxlength="30" required></label><label>Alter<input type="number" name="age" min="13" max="100" required></label><label>Discord Username <span class="optional">optional</span><input type="text" name="discord" maxlength="50"></label></div>
+<label>Begründung<textarea name="reason" minlength="20" maxlength="3000" required></textarea></label>
+<label class="check"><input type="checkbox" name="confirm" value="yes" required><span>Ich bestätige, dass meine Angaben nach bestem Wissen korrekt sind.</span></label>
+<button class="btn btn-primary" type="submit" id="submitBtn">Antrag absenden</button><p class="form-status" id="formStatus" role="status"></p>
+</form>
+<div class="form-note"><strong>Hinweis zum Versand</strong><p>Der Antrag funktioniert auf der öffentlichen GitHub-Pages-Seite über einen separaten Formular-Endpoint. Der geheime Mail-Schlüssel liegt dabei nicht in deiner Website.</p></div>
+</section></main>
+<footer class="footer"><div><span class="footer-brand">RBK_DEV-Studios</span><p>Support & Community.</p></div><small>© 2026 RBK_DEV-Studios</small></footer><script src="script.js"></script></body></html>
